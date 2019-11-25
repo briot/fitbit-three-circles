@@ -1,0 +1,46 @@
+<svg viewport-fill="black">
+  
+  <!-- couleur sous les disques oranges -->
+  <circle cx="50%" cy="50%" r="120" fill="#263D49" />
+
+  <!-- sensors -->
+  <arc id="heartRateCircle" class="orange" />
+
+  <!-- drawing of the clock, with holes for the sensors -->
+  <image href="clock.png" />
+  
+  <!-- text is displayed above -->
+  <text id="steps" class="orange"/>  
+
+  <g id="day" pointer-events="visible" transform="translate(206,124)">
+    <rect  x="0" y="0" width="37" height="1" class="orange" />
+    <circle cx="0" cy="0" class="orange" r="3" />
+  </g>
+  
+  <g transform="translate(50%,50%)">
+    <rect id="charger" x="-3" y="-59" width="6" height="38" class="orange" />
+  </g>
+
+  <g id="hours" pointer-events="visible" transform="translate(50%,50%)">
+   	<rect    x="40" y="-2" class="orange" width="40"  height="5"/>
+    <rect    x="2"  y="-5" class="gray"   width="70" height="4"/>
+  	<rect    x="2"  y="2"  class="gray"   width="70" height="4"/>
+  	<circle  cx="0" cy="0"  class="gray" r="9"/>
+  </g>
+ 
+  <g id="minutes" pointer-events="visible" transform="translate(50%,50%)">
+   	<rect    x="35" y="-2" class="gray"   width="75"  height="5"/>
+    <rect    x="2"  y="-5" class="orange" width="100" height="4"/>
+  	<rect    x="2"  y="2"  class="orange" width="100" height="4"/>
+  	<circle cx="0" cy="0"  class="orange" r="7"/>
+  </g>
+  
+  <g id="seconds" pointer-events="visible" transform="translate(50%,50%)">
+    <rect    x="0" y="0" class="yellow" width="120" height="3" />
+    <circle cx="0" cy="0" class="yellow" r="5" />
+  </g>
+
+  <circle cx="50%" cy="50%" fill="white" r="3" />
+  <circle cx="50%" cy="50%" fill="black" r="1" />
+
+</svg>

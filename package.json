@@ -1,0 +1,30 @@
+{
+  "fitbit": {
+    "appUUID": "a6ab1872-9c36-4ab2-ac14-8929f7c5dc8b",
+    "appType": "clockface",
+    "appDisplayName": "Erw1",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity",
+      "access_user_profile",
+      "access_location"
+    ],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Erw1"
+      },
+      "fr": {
+        "name": "Erw1"
+      }
+    },
+    "defaultLanguage": "fr-FR"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.0.0"
+  }
+}

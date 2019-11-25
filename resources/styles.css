@@ -1,0 +1,44 @@
+#myLabel {
+  font-size: 40;
+  font-family: System-Bold;
+  text-length: 5;
+  text-anchor: start;
+  x: 2;
+  y: 30;
+  fill: white;
+}
+
+#heartRateCircle {
+  x: 150-36;
+  y: 222-36;
+  width: 72;
+  height: 72;
+  arc-width: 5;
+  sweep-angle: 0;
+}
+
+#steps {
+  font-size: 16;
+  text-anchor: middle;
+  text-length: 5;
+  x: 50%;
+  y: 232;
+  font-family: System-Bold;
+}
+
+.empty {
+  fill: #666666;
+}
+.full {
+  fill: #F15A24;
+}
+
+.orange {
+  fill: #F15A24;
+}
+.yellow {
+  fill: yellow;
+}
+.gray {
+  fill: #ffffff;
+}
